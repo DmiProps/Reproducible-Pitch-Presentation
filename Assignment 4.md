@@ -1,10 +1,10 @@
 ---
 title: "Mtcars k-means clustering"
 author: "Dmitriy Yakovlev"
-date: "09-Dec-2016"
+date: "21-Apr-2018"
 output:
   html_document:
-job: 09-Dec-2016
+job: 21-Apr-2018
 knit: slidify::knit2slides
 mode: selfcontained
 subtitle: different variables of Mtcars & clustering analisys
