@@ -4,14 +4,12 @@ author: "Dmitriy Yakovlev"
 date: "09-Dec-2016"
 output:
   html_document:
-    number_sections: yes
-    toc: yes
 job: 09-Dec-2016
 knit: slidify::knit2slides
 mode: selfcontained
 subtitle: different variables of Mtcars & clustering analisys
 framework: io2012
-widgets: bootstrap
+##widgets: bootstrap
 ---
 
 
@@ -55,7 +53,8 @@ sidebarLayout(
                    min = 1, max = 9)
   ),
   mainPanel(
-      plotOutput('plot1')
+    h3("K-means clustering"),
+    plotOutput('plot1')
   )
 )
 ```
@@ -88,4 +87,4 @@ output$plot1 <- renderPlot({
 
 ## Example plotting
 
-![Title](https://github.com/DmiProps/ReproduciblePitchPresentation/blob/master/img1.png?raw=true)
+![Title](https://raw.githubusercontent.com/DmiProps/Reproducible-Pitch-Presentation/master/img2.png)
