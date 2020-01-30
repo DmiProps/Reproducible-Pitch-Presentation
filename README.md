@@ -1,4 +1,2 @@
 # Reproducible-Pitch-Presentation
-Reproducible Pitch Presentation
-
---- test github client ---
+coursera / Data Science / Reproducible Pitch Presentation
